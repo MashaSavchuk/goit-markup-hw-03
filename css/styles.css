@@ -98,9 +98,10 @@ img {
     margin: -1px;
     border: 0;
     padding: 0;
+
     white-space: nowrap;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);
     overflow: hidden;
 }
 .team-title,
@@ -238,7 +239,6 @@ img {
 /*  #region Features */
 .features {
     padding: 120px 0;
-    /* padding-bottom: 60px; */
 }
 .features-list {
     --items: 4;
@@ -278,7 +278,6 @@ img {
 }
 .team-img {}
 .team-wrapper {
-    /* padding: 32px 16px; */
     padding: 32px 0;
 }
 .team-subtitle {
@@ -301,7 +300,6 @@ img {
 
 /*  #region  Our Portfolio */
 .portfolio {
-    /* padding-top: 96px; */
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -316,7 +314,6 @@ img {
 } 
 .portfolio-wrapper {
     padding: 32px 16px;
-    /* border: 1px solid var(--light-400); */
     border: 1px solid #e7e9fc;
     border-top: none;
 }
